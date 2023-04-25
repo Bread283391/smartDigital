@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),o={__name:"problem",setup(o){const a=e.ref(""),r=()=>{console.log(a.value)};return(o,l)=>({a:a.value,b:e.o((e=>a.value=e.detail.value)),c:e.o(r)})}};wx.createPage(o);

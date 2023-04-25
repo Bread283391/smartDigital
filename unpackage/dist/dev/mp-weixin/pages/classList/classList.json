@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "课程列表",
+  "usingComponents": {
+    "other-page1": "./otherPage/otherPage1/otherPage1",
+    "other-page2": "./otherPage/otherPage2/otherPage2",
+    "other-page3": "./otherPage/otherPage3/otherPage3",
+    "other-page4": "./otherPage/otherPage4/otherPage4",
+    "my-class-page": "./otherPage/myClassPage/myClassPage"
+  }
+}

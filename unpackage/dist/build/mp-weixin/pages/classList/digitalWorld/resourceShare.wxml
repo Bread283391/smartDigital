@@ -1,0 +1,1 @@
+<view class="content-box"><view wx:for="{{a}}" wx:for-item="value" class="content"><view class="card"><view class="card-text"><view class="text1">{{value.a}}</view><view class="text2"> ({{value.b}}) </view></view></view></view></view>

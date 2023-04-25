@@ -1,0 +1,1 @@
+<view><view class="top"><view class="top-text"> “数”你不凡 </view></view><view class="middle"><view class="button-box"><view class="button"><label class="button-text1">版本更新</label><label class="button-text2">已是最新版本</label></view></view></view><view class="bottom"> 版本号:{{a}}</view></view>

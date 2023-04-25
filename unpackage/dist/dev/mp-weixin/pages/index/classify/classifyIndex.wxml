@@ -1,0 +1,1 @@
+<view><view class="classify-card-box"><view wx:for="{{a}}" wx:for-item="value" class="classify-card" is-shadow="true" bindtap="{{value.d}}"><view class="classify-content"><uni-icons wx:if="{{value.b}}" class="classify-icon" u-i="{{value.a}}" bind:__l="__l" u-p="{{value.b}}"></uni-icons><label class="classify-name">{{value.c}}</label></view></view></view></view>

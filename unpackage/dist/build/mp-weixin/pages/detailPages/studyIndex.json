@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "学习资源",
+  "usingComponents": {
+    "discuss": "./studyResource/discuss",
+    "study": "./studyResource/study",
+    "talk-to-teacher": "./studyResource/talkToTeacher"
+  }
+}

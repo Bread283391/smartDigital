@@ -1,0 +1,1 @@
+.card-box{margin-top:20rpx}.card{float:left;margin-top:10rpx;width:90%;height:100rpx;position:relative;left:50%;transform:translate(-50%);border-radius:10px;box-shadow:0 0 5px #909399}.classify-name{float:left;font-size:30rpx;margin-left:30rpx;color:#303133}.icon{float:right;color:#909399;margin-right:20rpx}.content{height:20rpx;position:relative;top:30%}

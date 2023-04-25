@@ -1,0 +1,1 @@
+<view><view class="content-box"><view wx:for="{{a}}" wx:for-item="value" class="content"><view wx:if="{{value.a}}" class="card">{{value.b}} <view class="dicuss-box"><view class="discuss-button" bindtap="{{value.c}}"> 参与讨论 </view></view></view></view></view></view>

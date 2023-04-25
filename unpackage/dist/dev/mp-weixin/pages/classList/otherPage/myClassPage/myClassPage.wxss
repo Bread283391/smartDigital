@@ -1,0 +1,150 @@
+
+.box {
+		width: 90%;
+		height: 300rpx;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top:50rpx;
+}
+.card{
+		margin: 0px;
+		margin-top: 30rpx;
+		width: 100%;
+		height: 230rpx;
+		border-radius: 10px;
+		background-color: #ffffff;
+		box-shadow: 0 0 10px #e9e9eb;
+}
+.title{
+		font-size: 36rpx;
+}
+.content-all{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+}
+.content{
+		/* flex: 1 1 33.3%; */
+		text-align: center;
+}
+.content-1-2{
+}
+.content-1-3{
+}
+.content-text{
+		margin-top: 15rpx;
+		font-size: 25rpx;
+		text-align: center;
+}
+.icon-box{
+		width: 100rpx;
+		height: 100rpx;
+		background-color: #409EFF;
+		border-radius: 50%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+}
+.icon-box-1-2{
+		background-color: #E6A23C;
+}
+.icon-box-1-3{
+		background-color: #67C23A;
+}
+.icon-box-2-1{
+		background-color: #67C23A;
+}
+.icon-box-2-2{
+		background-color: #F56C6C;
+}
+.icon-box-3-2{
+		background-color: #F56C6C;
+}
+.icon-box-3-3{
+		background-color: #E6A23C;
+}
+.icon{
+		position: relative;
+		top:25%;
+		left:3%;
+		color: #ffffff;
+}
+.class-box{
+		margin-top: 50rpx;
+}
+.class-title{
+		font-size: 42rpx;
+}
+.class-card{
+		width: 95%;
+		height: 200rpx;
+		margin-top: 10rpx;
+		overflow: hidden;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #ffffff;
+		border-radius: 10px;
+		box-shadow: 0 0 10px #e9e9eb;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.image-box .image{
+		width: 320rpx;
+		height: 200rpx;
+		border-radius: 10px;
+		float: left;
+		border: 0.5px #fff solid;
+}
+.text-box{
+		float: left;
+		border: 0.5px #fff solid;
+		margin-left: 20rpx;
+		overflow: hidden;
+}
+.text-line{
+		 margin-top: 10rpx;
+}
+.text-line1{
+		color: #303133;
+}
+.price{
+		position: absolute;
+		color: #F56C6C;
+		font-size: 36rpx;
+		font-weight: bold;
+		left: 85%;
+		top: 3%;
+}
+.free{
+		left: 85%;
+		font-size: 30rpx;
+}
+.text-class-name{
+		font-size: 30rpx;
+		font-weight:bold;
+}
+.text-line2{
+}
+.text-classes{
+		font-size: 24rpx;
+		color: #909399;
+}
+.text-line3{
+		font-size: 24rpx;
+		color: #909399;
+}
+.text-teacher{
+		font-size: 24rpx;
+		color: #409EFF;
+}
+.text-line4{
+}
+.text-time{
+		font-size: 20rpx;
+		color: #909399;
+}

@@ -1,0 +1,75 @@
+<template>
+	 <view>
+		 <view class="top">
+			 <view class="top-text">
+			 	“数”你不凡
+			 </view>
+		 </view>
+		 <view class="middle">
+			 <view class="button-box">
+				 <view class="button">
+					 <span class="button-text1">版本更新</span>
+					 <span class="button-text2">已是最新版本</span>
+				 </view>
+			 </view>
+		 </view>
+		 <view class="bottom">
+			 版本号:{{ version }}
+		 </view>
+	 </view>
+</template>
+
+<script setup>
+const version='1.0.2'
+</script>
+
+<style>
+.top{
+	width:100%;
+	height: 200rpx;
+	line-height: 200rpx;
+	text-align: center;
+}
+.top-text{
+	font-size: 100rpx;
+	font-family: "Lucida Calligraphy", cursive,sans-serif;
+}
+.middle{
+	width: 100%;
+}
+.button-box{
+	width: 70%;
+	height: 100rpx;
+	border-radius: 10px;
+	box-shadow:0 0 10px #909399;
+	line-height: 100rpx;
+	padding: 0 30rpx;
+	position:relative;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: hidden;
+}
+.button{
+	
+}
+.button-text1{
+	font-size: 30rpx;
+}
+.button-text2{
+	float: right;
+	font-size: 24rpx;
+	color: #909399;
+	
+}
+.bottom{
+	width: 100%;
+	height: 200rpx;
+	line-height: 200rpx;
+	position: absolute;
+	top: 100%;
+	transform: translateY(-100%);
+	font-size: 24rpx;
+	color: #909399;
+	text-align: center;
+}
+</style>

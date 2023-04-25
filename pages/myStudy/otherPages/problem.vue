@@ -1,0 +1,65 @@
+<template>
+	<view>
+		<view class="content">
+			<view class="input-box">
+				<textarea class="input"
+					:cols="35" 
+					:rows="8" 
+					v-model="problem" 
+					placeholder="请输入反馈内容">
+				</textarea>
+			</view>
+			<view class="button" @click="submitProblem">
+				提交反馈
+			</view>
+		</view>
+	</view>
+</template>
+
+<script setup>
+import { ref } from "vue";
+const problem = ref('')
+const submitProblem = () =>{
+	console.log(problem.value)
+}
+</script>
+
+<style>
+	
+	page{
+		background-color: #f4f4f5;
+	}
+	.content{
+		width: 80%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-53%);
+		margin-top: 50rpx;
+	}
+	.input-box{
+		width: 100%;
+		height:300rpx;
+		background-color: #ffffff;
+		border-radius: 10px;
+		padding: 20rpx 20rpx;
+	}
+	.input{
+		overflow-x:visible;
+		overflow-y:visible;
+
+	}
+	.button{
+		margin-top: 100rpx;
+		width: 50%;
+		height:80rpx;
+		border-radius: 10px;
+		background-color: #409eff;
+		color: #ffffff;
+		line-height: 80rpx;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		
+	}
+</style>

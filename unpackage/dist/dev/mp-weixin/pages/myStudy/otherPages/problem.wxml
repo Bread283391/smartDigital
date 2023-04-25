@@ -1,0 +1,2 @@
+<view><view class="content"><view class="input-box"><block wx:if="{{r0}}"><textarea class="input" cols="{{35}}" rows="{{8}}" placeholder="请输入反馈内容" value="{{a}}" bindinput="{{b}}">
+				</textarea></block></view><view class="button" bindtap="{{c}}"> 提交反馈 </view></view></view>

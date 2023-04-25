@@ -1,0 +1,169 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/classList/classList",
+			"style": {
+				"navigationBarTitleText": "课程列表"
+			}
+		},
+		{
+			"path": "pages/myStudy/myStudy",
+			"style": {
+				"navigationBarTitleText": "学习中心"
+			}
+		},
+		{
+			"path": "pages/detail",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		},
+		{
+			"path":"pages/index/searchResult",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		},
+		{
+			"path":"pages/classList/otherPage/myClassPage/myClass/studying",
+			"style": {
+				"navigationBarTitleText": "正在学习"
+			}
+		},
+		{
+			"path":"pages/classList/otherPage/myClassPage/myClass/finish",
+			"style": {
+				"navigationBarTitleText": "已完成"
+			}
+		},
+		{
+			"path":"pages/classList/otherPage/myClassPage/myClass/unStudy",
+			"style": {
+				"navigationBarTitleText": "未学习"
+			}
+		},
+		{
+			"path":"pages/index/popular/otherPage/sign-in",
+			"style": {
+				"navigationBarTitleText": "学习打卡"
+			}
+		},
+		{
+			"path":"pages/index/popular/otherPage/rethink",
+			"style": {
+				"navigationBarTitleText": "自我测评"
+			}
+		},
+		{
+			"path":"pages/index/popular/otherPage/message",
+			"style": {
+				"navigationBarTitleText": "每日资讯"
+			}
+		},
+		{
+			"path":"pages/index/popular/otherPage/resourceShare",
+			"style": {
+				"navigationBarTitleText": "资源分享"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/studyHistory",
+			"style": {
+				"navigationBarTitleText": "学习记录"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/shop",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/systemSettings",
+			"style": {
+				"navigationBarTitleText": "系统设置"
+			}
+		},
+		{
+			"path":"pages/myStudy/otherPages/problem",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+			}
+		},
+		{
+			"path":"pages/detailPages/studyResource/discuss/discussDetail/discussDetail",
+			"style": {
+				"navigationBarTitleText": "讨论详情"
+			}
+		},
+		{
+            "path" : "pages/detailPages/studyIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学习资源"
+            }
+            
+        },
+		{
+            "path" : "pages/detailPages/studyResource/study/playVideo/playVideo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频播放"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconWidth": "50rpx",
+		"fontSize": "5rpx",
+		"color": "#7A7E83",
+		"selectedColor": "#79bbff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar/index-unselected.png",
+				"selectedIconPath": "static/images/tabBar/index-selected.png",
+				"text": "近期好课"
+			}, 
+			{
+				"pagePath": "pages/classList/classList",
+				"iconPath": "static/images/tabBar/classList-unselected.png",
+				"selectedIconPath": "static/images/tabBar/classList-selected.png",
+				"text": "课程列表"
+			},
+			{
+				"pagePath": "pages/myStudy/myStudy",
+				"iconPath": "static/images/tabBar/myStudy-unselected.png",
+				"selectedIconPath": "static/images/tabBar/myStudy-selected.png",
+				"text": "学习中心"
+			}
+		]
+	}
+}

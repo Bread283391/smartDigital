@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3821794 */
+  /* Color fonts */
+  src: 
+       url('/static/icons/iconfont.woff2') format('woff2'),
+       url('/static/icons/iconfont.woff') format('woff'),
+       url('/static/icons/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jingying:before {
+  content: "\e610";
+}
+
+.icon-jisuanji:before {
+  content: "\e637";
+}
+
+.icon-caiwu:before {
+  content: "\e8ae";
+}
+
+.icon-rengongzhineng:before {
+  content: "\e651";
+}
+
+.icon-shangye:before {
+  content: "\eaab";
+}
+
+.icon-huanjing:before {
+  content: "\e62a";
+}
+
+.icon-renliziyuan:before {
+  content: "\e634";
+}
+
+.icon-daifahuo:before {
+  content: "\e601";
+}
+
+.icon-shouhou:before {
+  content: "\e64c";
+}
+
+.icon-daishouhuo:before {
+  content: "\e605";
+}
+
+.icon-daipingjia:before {
+  content: "\e612";
+}
+
+.icon-daifukuan:before {
+  content: "\e656";
+}
+
+.icon-finish:before {
+  content: "\e6a6";
+}
+
+.icon-unStudy:before {
+  content: "\e604";
+}
+
+.icon-messageShare:before {
+  content: "\e645";
+}
+
+.icon-teacher:before {
+  content: "\e603";
+}
+
+.icon-message:before {
+  content: "\e771";
+}
+
+.icon-ceping:before {
+  content: "\e600";
+}
+
+.icon-qiandao:before {
+  content: "\e641";
+}
+
+.icon-book:before {
+  content: "\e602";
+}
+

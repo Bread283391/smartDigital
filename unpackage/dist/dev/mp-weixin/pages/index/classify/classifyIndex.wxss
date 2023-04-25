@@ -1,0 +1,30 @@
+
+.classify-card-box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.classify-card{
+	flex: 1 1 40%;
+	margin: 20rpx;
+	height: 100rpx;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #909399;
+}
+.classify-name{
+	float: left;
+	font-size: 30rpx;
+	margin-left: 30rpx;
+	color:#303133;
+}
+.classify-icon{
+	float: left;
+	margin-left: 20rpx;
+}
+.classify-content{
+	height: 20rpx;
+	position: relative;
+	top: 30%;
+}

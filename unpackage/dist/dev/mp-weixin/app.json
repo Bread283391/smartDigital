@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classList/classList",
+    "pages/myStudy/myStudy",
+    "pages/detail",
+    "pages/index/searchResult",
+    "pages/classList/otherPage/myClassPage/myClass/studying",
+    "pages/classList/otherPage/myClassPage/myClass/finish",
+    "pages/classList/otherPage/myClassPage/myClass/unStudy",
+    "pages/index/popular/otherPage/sign-in",
+    "pages/index/popular/otherPage/rethink",
+    "pages/index/popular/otherPage/message",
+    "pages/index/popular/otherPage/resourceShare",
+    "pages/myStudy/otherPages/studyHistory",
+    "pages/myStudy/otherPages/shop",
+    "pages/myStudy/otherPages/help",
+    "pages/myStudy/otherPages/about",
+    "pages/myStudy/otherPages/systemSettings",
+    "pages/myStudy/otherPages/problem",
+    "pages/detailPages/studyResource/discuss/discussDetail/discussDetail",
+    "pages/detailPages/studyIndex",
+    "pages/detailPages/studyResource/study/playVideo/playVideo"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "color": "#7A7E83",
+    "selectedColor": "#79bbff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabBar/index-unselected.png",
+        "selectedIconPath": "static/images/tabBar/index-selected.png",
+        "text": "近期好课"
+      },
+      {
+        "pagePath": "pages/classList/classList",
+        "iconPath": "static/images/tabBar/classList-unselected.png",
+        "selectedIconPath": "static/images/tabBar/classList-selected.png",
+        "text": "课程列表"
+      },
+      {
+        "pagePath": "pages/myStudy/myStudy",
+        "iconPath": "static/images/tabBar/myStudy-unselected.png",
+        "selectedIconPath": "static/images/tabBar/myStudy-selected.png",
+        "text": "学习中心"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
